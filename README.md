@@ -1,3 +1,27 @@
+# Project Outline
+
+So this is a client project, that I was given permission to make public on my GitHub!
+
+It's a Full Stack NextJS Web Application, that will go into live production for the client as soon as I finish it!
+
+This project WILL take some time but thus far I've been able outline a rough draft of the site (page) structure.
+
+# Tools Used
+
+- NextJS (in React)
+- JavaScript
+- API Routing in NextJS
+- CSS
+- Vercel
+
+# Thoughts so Far
+
+Haven't really run into any major issues thus far, lots of resource searching online aside from the app structuring (pictures/text for the webpages).
+
+Will continue to work on this on a daily basis until deadline date!
+
+***********************************************************************************
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
