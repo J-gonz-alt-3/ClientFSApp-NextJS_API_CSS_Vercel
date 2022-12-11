@@ -22,7 +22,7 @@
   "allservices": [
     {
       "id": "IntroComp",
-      "title": "Intro to Computers",
+      "title": "Computer Fundamentals",
       "location": "Fully Online",
       "service": "Education",
       "description": "Provides the necessary background for and provides hands-on practice using popular microcomputer office applications including word processing, spreadsheets, database and presentation management. The course also covers computer concepts including hardware, software, multimedia, privacy and security, and current computing trends",
@@ -40,20 +40,20 @@
     },
     {
       "id": "IntroCyber",
-      "title": "Intro to Cybersecurity",
+      "title": "Cybersecurity Fundamentals",
       "location": "Fully Online",
       "service": "Education",
       "description": "In this course, you will receive beginner training in the field of cybersecurity.  This training is ideal for those new to the field, but interested in pursuing a career.  This course covers the many areas of cybersecurity that you'll need to gain employment, including network security, cloud security, system security, network infrastructure, protocols, and encryption.",
-      "image": "/../public/security.jpg",
+      "image": "/../public/python1.jpg",
       "emails_registered": []
     },
     {
       "id": "IntroWebDev",
-      "title": "Intro to Web Development",
+      "title": "Web Development",
       "location": "Fully Online",
       "service": "Education",
       "description": "Web Development course syllabus aims to teach about front-end, back-end, and full-stack Web Development. Web Development course covers various topics under Web Development such as Database Management, Web Publishing, Web Design, and Web Programming. ",
-      "image": "/../public/webdev.jpg",
+      "image": "/../public/webdev.png",
       "emails_registered": []
     },
     {
@@ -63,6 +63,87 @@
       "service": "Education",
       "description": "This course teaches basic language patterns and vocabulary. Repetition and comprehensible input are important components of this course. The focus is on all four language skills; reading, writing, speaking and listening as well as the culture of the Spanish speaking world. Each unit will cover the vocabulary of a specific theme, (family, school, hobbies, food, etc.) and grammar concepts appropriate to level one.",
       "image": "/../public/spanish.jpg",
+      "emails_registered": []
+    },
+    {
+      "id": "PythonI",
+      "title": "Intro to Python",
+      "location": "Fully Online",
+      "service": "Individuals",
+      "description": "This course provides an introduction to the Python programming language. It’s the fastest-growing programming language out there and is becoming an integral part of many professions, from finance insurance, technology, Web development and cyber security. Students are introduced to fundamentals of Python programming with concepts of data structures, Variables, conditional loops, subroutines and functions.",
+      "image": "/../public/pythonlogo.jpg",
+      "emails_registered": []
+    },
+    {
+      "id": "HTMLCSS",
+      "title": "HTML and CSS Fundamentals",
+      "location": "Fully Online",
+      "service": "Individuals",
+      "description": "In this course you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design. The teaching approach here will be through completion of a variety of hands on projects where you will learn the various HTML elements, and CSS properties!",
+      "image": "/../public/html.jpg",
+      "emails_registered": []
+    },
+    {
+      "id": "JavaScriptI",
+      "title": "Intro to JavaScript",
+      "location": "Fully Online",
+      "service": "Individuals",
+      "description": "While HTML and CSS control the content and styling of a page, JavaScript is used to make it interactive! In this course you'll learn the fundamentals of JavaScript including variables, array, objects, loops, and functions!",
+      "image": "/../public/javascript.png",
+      "emails_registered": []
+    },
+    {
+      "id": "JavaScriptII",
+      "title": "Intermediate JavaScript",
+      "location": "Fully Online",
+      "service": "Individuals",
+      "description": "In this course we will learn what ES6 JavaScript is, as opposed to the previous course which covered mostly ES5. While you can still write programs in ES5, JavaScript is constantly evolving and new features are released every year. In addtion to learning about ES6, we will cover Regular Expressions, Debugging and Basic Data Structures!",
+      "image": "/../public/javascript2.png",
+      "emails_registered": []
+    },
+    {
+      "id": "JavaScriptIII",
+      "title": "Advanced JavaScript",
+      "location": "Fully Online",
+      "service": "Individuals",
+      "description": "In this course we will learn about Object Oriented Programming, which is one of the major approaches to the software development process! You'll learn the basic principles of OOP in JavaScript, including the this keyword, prototype chains, constructors, and inheritance. Finally, we will cover Functional Programming as well, which is another popular approach to software development!",
+      "image": "/../public/javascript3.png",
+      "emails_registered": []
+    },
+    {
+      "id": "JavaScriptIV",
+      "title": "JavaScript: Algorithm Scripting I",
+      "location": "Fully Online",
+      "service": "Individuals",
+      "description": "An algorithm is a series of step-by-step instructions that describe how to do something. To write an effective algorithm, it helps to break a problem down into smaller parts and think carefully about how to solve each part with code. In this course you'll learn about the funadamentals of algorithmic thinking by writing basic algorithms!",
+      "image": "/../public/algorithm1.png",
+      "emails_registered": []
+    },
+    {
+      "id": "JavaScriptIV",
+      "title": "JavaScript: Algorithm Scripting II",
+      "location": "Fully Online",
+      "service": "Individuals",
+      "description": "An algorithm is a series of step-by-step instructions that describe how to do something. To write an effective algorithm, it helps to break a problem down into smaller parts and think carefully about how to solve each part with code. In this course, now that you know the basics of algorithmic thinking, along with OOP and Functional Programming, we will test your skills with Intermediate Algorithm Scripting challenges!",
+      "image": "/../public/algorithm2.png",
+      "emails_registered": []
+    },
+    {
+      "id": "Networking",
+      "title": "Network Management",
+      "location": "Fully Online",
+      "service": "Consulting",
+      "description": "Infrastructure is core to everything your business delivers to your employees and clients, as you drive innovation through transformation. We support your end-to-end transformation journey through our network consulting services, helping you identify, tailor and deliver infrastructure and cloud solutions, specific to your business needs. Partner with us to deploy the solution, or operationalize it through our managed service capability.",
+      "image": "/../public/network.jpg",
+      "emails_registered": []
+    },
+    {
+      "id": "WebDevelopment",
+      "title": "Full Stack Web Development",
+      "location": "Fully Online",
+      "service": "Consulting",
+      "description": "Your website is the face of your company and the first glimpse at your brand offering. By harnessing the power of modern web design and development, it can also be your launchpad, propelling users into your story and unique differentiation. We’ll take your innovative vision and provide design strategy, creative guidance, and development expertise to create a multi-device digital experience that caters to your users and addresses your industry’s demands.",
+      "image": "/../public/webdev.jpg",
       "emails_registered": []
     }
   ]

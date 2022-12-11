@@ -1,11 +1,13 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const ServicesCatPage = ({ data }) => {
   return (
     <div>
-      <h1>Courses Offered</h1>
+      <h1>Services Offered</h1>
       <div>
         {data.map((ev) => (
+          <Link></Link>
           <a key={ev.id} href={`/services/${ev.service}/${ev.id}`}>
             <Image width={300} height={300} alt={ev.title} src={ev.image} />
             <h2>{ev.title}</h2>
