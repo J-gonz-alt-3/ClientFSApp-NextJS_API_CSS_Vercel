@@ -8,7 +8,7 @@ This project WILL take some time but thus far I've been able outline a rough dra
 
 # Tools Used
 
-- NextJS (in React)
+- NextJS
 - JavaScript
 - API Routing in NextJS
 - CSS
