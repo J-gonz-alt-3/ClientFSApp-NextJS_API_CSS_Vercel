@@ -7,7 +7,7 @@ const ServicesCatPage = ({ data }) => {
       <div>
         {data.map((ev) => (
           <a key={ev.id} href={`/services/${ev.service}/${ev.id}`}>
-            <Image width={300} height={200} />
+            <Image width={300} height={300} alt={ev.title} src={ev.image} />
             <h2>{ev.title}</h2>
             <p>{ev.description}</p>
           </a>
