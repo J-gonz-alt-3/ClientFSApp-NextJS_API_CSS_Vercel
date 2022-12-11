@@ -24,6 +24,7 @@
       "id": "IntroComp",
       "title": "Introduction to Computers",
       "location": "Fully Online",
+      "service": "Education",
       "description": "Provides the necessary background for and provides hands-on practice using popular microcomputer office applications including word processing, spreadsheets, database and presentation management. The course also covers computer concepts including hardware, software, multimedia, privacy and security, and current computing trends",
       "image": "/../public/computers.jpg",
       "emails_registered": []
@@ -32,6 +33,7 @@
       "id": "MicrosoftOffice",
       "title": "Microsoft Office Software Applications",
       "location": "Fully Online",
+      "service": "Education",
       "description": "This hands-on introductory course is intended for students interested in learning to use the computer as a productivity tool. Course content includes the fundamentals of Word, PowerPoint, Excel, Access, and the Internet. ",
       "image": "/../public/microsoft.jpg",
       "emails_registered": []
@@ -40,6 +42,7 @@
       "id": "IntroCyber",
       "title": "Intro to Cybersecurity",
       "location": "Fully Online",
+      "service": "Education",
       "description": "In this course, you will receive beginner training in the field of cybersecurity.  This training is ideal for those new to the field, but interested in pursuing a career.  This course covers the many areas of cybersecurity that you'll need to gain employment, including network security, cloud security, system security, network infrastructure, protocols, and encryption.",
       "image": "/../public/security.jpg",
       "emails_registered": []
@@ -48,6 +51,7 @@
       "id": "IntroWebDev",
       "title": "Intro to Web Development",
       "location": "Fully Online",
+      "service": "Education",
       "description": "Web Development course syllabus aims to teach about front-end, back-end, and full-stack Web Development. Web Development course covers various topics under Web Development such as Database Management, Web Publishing, Web Design, and Web Programming. ",
       "image": "/../public/webdev.jpg",
       "emails_registered": []
@@ -56,6 +60,7 @@
       "id": "Spanish",
       "title": "Foreign Language: Spanish",
       "location": "Fully Online",
+      "service": "Education",
       "description": "This course teaches basic language patterns and vocabulary. Repetition and comprehensible input are important components of this course. The focus is on all four language skills; reading, writing, speaking and listening as well as the culture of the Spanish speaking world. Each unit will cover the vocabulary of a specific theme, (family, school, hobbies, food, etc.) and grammar concepts appropriate to level one.",
       "image": "/../public/spanish.jpg",
       "emails_registered": []
