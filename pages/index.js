@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
-export default function Home({ title }) {
+export default function Home({ data }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -21,35 +21,13 @@ export default function Home({ title }) {
       </header>
 
       <main className={styles.main}>
-        <a href="/services/Course List">
-          <img />
-          <h2>Training for Education</h2>
-          <p>
-            We offer quality user-awareness cybersecurity training for your
-            employees tailored to meet your budget and the current security
-            needs of your business.
-          </p>
-        </a>
-        <a href="">
-          <img />
-          <h2>Training for Individuals</h2>
-          <p>
-            We offer quality user-awareness cybersecurity training for your
-            employees tailored to meet your budget and the current security
-            needs of your business.
-          </p>
-        </a>
-        <a href="">
-          <img />
-          <h2>Consulting</h2>
-          <p>
-            We’re proud to feature a list of prominent speakers who are at the
-            forefront of their fields. These professionals are always eager to
-            share their knowledge and inspire like-minded enthusiasts. Read more
-            about this year’s speakers below, and contact us if you would like
-            to learn more information.
-          </p>
-        </a>
+        {data.map((ev) => (
+          <a key={ev.id} href={`/services/${ev.id}`}>
+            <Image width={300} height={200} alt={ev.title} src={ev.image} />
+            <h2>{ev.title}</h2>
+            <p>{ev.description}</p>
+          </a>
+        ))}
       </main>
 
       <footer className={styles.footer}>
@@ -60,9 +38,10 @@ export default function Home({ title }) {
 }
 
 export async function getServerSideProps() {
+  const { service_categories } = await import("/data/data.json");
   return {
     props: {
-      title: "Hello everyone!",
+      data: service_categories,
     },
   };
 }
