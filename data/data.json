@@ -145,15 +145,6 @@
       "description": "Your website is the face of your company and the first glimpse at your brand offering. By harnessing the power of modern web design and development, it can also be your launchpad, propelling users into your story and unique differentiation. We’ll take your innovative vision and provide design strategy, creative guidance, and development expertise to create a multi-device digital experience that caters to your users and addresses your industry’s demands.",
       "image": "/../public/webdev.jpg",
       "emails_registered": []
-    },
-    {
-      "id": "WebDevelopment",
-      "title": "Full Stack Web Development",
-      "location": "Fully Online",
-      "service": "IntroComp",
-      "description": "Your website is the face of your company and the first glimpse at your brand offering. By harnessing the power of modern web design and development, it can also be your launchpad, propelling users into your story and unique differentiation. We’ll take your innovative vision and provide design strategy, creative guidance, and development expertise to create a multi-device digital experience that caters to your users and addresses your industry’s demands.",
-      "image": "/../public/webdev.jpg",
-      "emails_registered": []
     }
   ]
 }

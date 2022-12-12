@@ -1,6 +1,7 @@
 import Image from "next/image";
 
-const ServicesPage = (data) => {
+const ServicesPage = ({ data }) => {
+  console.log(data);
   return (
     <div>
       <Image src={data.image} width={1000} height={500} alt={data.title} />
@@ -31,7 +32,6 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps(context) {
-  console.log(context);
   const id = context.params.id;
   const { allservices } = await import("/data/data.json");
   const serviceData = allservices.find((ev) => id === ev.id);
