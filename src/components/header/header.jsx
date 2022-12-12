@@ -38,7 +38,7 @@ export const Header = () => {
             </ul>
           </nav>
         </div>
-        <h1>IT Global Professionals</h1>
+        <p className="title">IT Global Professionals</p>
       </div>
     </header>
   );

@@ -1,15 +1,7 @@
-import Image from "next/image";
+import SingleService from "../../../src/components/services/single-service";
 
-const ServicesPage = ({ data }) => {
-  console.log(data);
-  return (
-    <div>
-      <Image src={data.image} width={1000} height={500} alt={data.title} />
-      <h1>{data.title}</h1>
-      <p>{data.description}</p>
-    </div>
-  );
-};
+const ServicesPage = ({ data }) => <SingleService data={data} />;
+
 export default ServicesPage;
 
 export async function getStaticPaths() {
