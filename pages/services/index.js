@@ -1,20 +1,7 @@
-import Image from "next/image";
-import Link from "next/link";
+import AllServices from "../../src/components/services/services-page";
 
 const ServicesPage = ({ data }) => {
-  return (
-    <div>
-      <h1>Services Offered</h1>
-      <div>
-        {data.map((ev) => (
-          <Link key={ev.id} href={`/services/${ev.id}`} passHref>
-            <Image src={ev.image} alt={ev.title} width={300} height={200} />
-            <h2>{ev.title}</h2>
-          </Link>
-        ))}
-      </div>
-    </div>
-  );
+  return <AllServices data={data} />;
 };
 export default ServicesPage;
 

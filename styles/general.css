@@ -43,7 +43,8 @@ main {
   width: 100%;
   max-width: 1250px;
   margin: auto;
-  padding: 100px 30px;
+  padding: 80px 30px;
+  min-height: 550px;
 }
 .home_body {
   display: flex;
@@ -66,4 +67,27 @@ main {
 }
 .content {
   width: 50%;
+}
+
+.about_us_list {
+  diplay: flex;
+  flex-direction: column;
+}
+
+.services_page {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.card {
+  position: relative;
+}
+.card > h2 {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 20px black;
 }
