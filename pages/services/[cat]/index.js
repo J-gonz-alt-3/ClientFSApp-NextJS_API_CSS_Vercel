@@ -1,3 +1,5 @@
+import CatService from "../../../src/components/services/catService";
+
 const ServicesCatPage = ({ data, pageName }) => (
   <CatService data={data} pageName={pageName} />
 );
