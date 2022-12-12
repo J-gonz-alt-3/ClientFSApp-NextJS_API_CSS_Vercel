@@ -1,22 +1,7 @@
-import Image from "next/image";
-import Link from "next/link";
+const ServicesCatPage = ({ data, pageName }) => (
+  <CatService data={data} pageName={pageName} />
+);
 
-const ServicesCatPage = ({ data, pageName }) => {
-  return (
-    <div>
-      <h1>Services for {pageName}</h1>
-      <div>
-        {data.map((ev) => (
-          <Link key={ev.id} href={`/services/${ev.service}/${ev.id}`} passHref>
-            <Image width={300} height={300} alt={ev.title} src={ev.image} />
-            <h2>{ev.title}</h2>
-            <p>{ev.description}</p>
-          </Link>
-        ))}
-      </div>
-    </div>
-  );
-};
 export default ServicesCatPage;
 
 export async function getStaticPaths() {
