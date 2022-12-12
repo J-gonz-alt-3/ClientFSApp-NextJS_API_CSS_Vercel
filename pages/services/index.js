@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const ServicesPage = ({ data }) => {
   return (
@@ -6,10 +7,10 @@ const ServicesPage = ({ data }) => {
       <h1>Services Offered</h1>
       <div>
         {data.map((ev) => (
-          <a key={ev.id} href={`/services/${ev.id}`}>
+          <Link key={ev.id} href={`/services/${ev.id}`} passHref>
             <Image src={ev.image} alt={ev.title} width={300} height={200} />
             <h2>{ev.title}</h2>
-          </a>
+          </Link>
         ))}
       </div>
     </div>

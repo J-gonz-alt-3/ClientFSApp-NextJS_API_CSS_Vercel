@@ -1,18 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const ServicesCatPage = ({ data }) => {
+const ServicesCatPage = ({ data, pageName }) => {
   return (
     <div>
-      <h1>Services Offered</h1>
+      <h1>Services for {pageName}</h1>
       <div>
         {data.map((ev) => (
-          <Link></Link>
-          <a key={ev.id} href={`/services/${ev.service}/${ev.id}`}>
+          <Link key={ev.id} href={`/services/${ev.service}/${ev.id}`} passHref>
             <Image width={300} height={300} alt={ev.title} src={ev.image} />
             <h2>{ev.title}</h2>
             <p>{ev.description}</p>
-          </a>
+          </Link>
         ))}
       </div>
     </div>
@@ -43,6 +42,6 @@ export async function getStaticProps(context) {
   const data = allservices.filter((ev) => ev.service === id);
 
   return {
-    props: { data },
+    props: { data, pageName: id },
   };
 }
