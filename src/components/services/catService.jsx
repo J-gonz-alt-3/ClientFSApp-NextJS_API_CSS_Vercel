@@ -16,7 +16,7 @@ const CatService = ({ data, pageName }) => {
           >
             <a className="card">
               <Image width={300} height={300} alt={ev.title} src={ev.image} />
-              <h2 className="card_title">{ev.title}</h2>
+              <h2>{ev.title}</h2>
               <p>{ev.description}</p>
             </a>
           </Link>
