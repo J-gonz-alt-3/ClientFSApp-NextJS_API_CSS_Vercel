@@ -21,6 +21,7 @@ export const HomePage = ({ data }) => (
           width={500}
           height={400}
           alt={"new tech at work"}
+          style={{ borderRadius: "5px" }}
         />
       </div>
     </div>
