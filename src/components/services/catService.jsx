@@ -15,7 +15,17 @@ const CatService = ({ data, pageName }) => {
             passHref
           >
             <a className="card">
-              <Image width={300} height={300} alt={ev.title} src={ev.image} />
+              <Image
+                style={{
+                  borderRadius: "10px",
+                  objectFit: "cover",
+                  overflow: "hidden",
+                }}
+                width={300}
+                height={300}
+                alt={ev.title}
+                src={ev.image}
+              />
               <h2>{ev.title}</h2>
               <p>{ev.description}</p>
             </a>

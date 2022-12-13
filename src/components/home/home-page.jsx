@@ -16,13 +16,23 @@ export const HomePage = ({ data }) => (
         <Image src={""} alt={""} />
       </div>
     </div>
-    <div className="home_body">
+    <div className="home_body app__header app__wrapper section__padding ">
       {data.map((ev) => (
         <Link className="card" key={ev.id} href={`/services/${ev.id}`} passHref>
-          <div className="image">
-            <Image width={400} height={300} alt={ev.title} src={ev.image} />
+          <div className="image app__wrapper_img">
+            <Image
+              style={{
+                borderRadius: "10px",
+                objectFit: "cover",
+                overflow: "hidden",
+              }}
+              width={400}
+              height={300}
+              alt={ev.title}
+              src={ev.image}
+            />
           </div>
-          <div className="content">
+          <div className="content app__wrapper_info">
             <h2>{ev.title}</h2>
             <p>{ev.description}</p>
           </div>

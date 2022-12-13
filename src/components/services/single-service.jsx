@@ -44,7 +44,17 @@ export const SingleService = ({ data }) => {
   return (
     <div className="service_single_page">
       <h1>{data.title}</h1>
-      <Image src={data.image} width={800} height={500} alt={data.title} />
+      <Image
+        style={{
+          borderRadius: "10px",
+          objectFit: "cover",
+          overflow: "hidden",
+        }}
+        src={data.image}
+        width={800}
+        height={500}
+        alt={data.title}
+      />
 
       <p>{data.description}</p>
       <form onSubmit={onSubmit} className="email_registration">
