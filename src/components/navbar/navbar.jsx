@@ -9,12 +9,14 @@ export const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <Image
-          alt="logo"
-          src={"/../public/itlogo2.png"}
-          width={90}
-          height={90}
-        />
+        <Link href="/" passHref>
+          <Image
+            alt="logo"
+            src={"/../public/logo4.png"}
+            width={80}
+            height={80}
+          />
+        </Link>
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans">
@@ -40,13 +42,13 @@ export const Navbar = () => {
         </li>
       </ul>
       <div app__navbar-login>
-        <a href="#login" className="p__opensans">
+        <Link href="/login" className="p__opensans">
           Log In/Registration
-        </a>
+        </Link>
       </div>
       <div>
         <GiHamburgerMenu
-          color="fff"
+          color="white"
           fontSize={27}
           onClick={() => setToggleMenu(true)}
         />
