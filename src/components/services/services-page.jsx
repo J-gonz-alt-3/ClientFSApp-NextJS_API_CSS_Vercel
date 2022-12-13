@@ -4,10 +4,10 @@ import Link from "next/link";
 
 const AllServices = ({ data }) => {
   return (
-    <div className="services_page">
+    <div className="services_page section__padding">
       {data.map((ev) => (
         <Link key={ev.id} href={`/services/${ev.id}`} passHref>
-          <p className="card">
+          <p className="card ">
             <Image
               style={{
                 borderRadius: "10px",

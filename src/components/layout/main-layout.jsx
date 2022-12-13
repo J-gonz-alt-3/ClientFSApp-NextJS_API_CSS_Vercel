@@ -14,7 +14,7 @@ const MainLayout = ({ children }) => {
     // home-page.jsx
     // footer.jsx
 
-    //Services: (Missing All)
+    //Services: (Complete)
     //services-page.jsx
 
     //About Us: (Missing All)

@@ -360,9 +360,51 @@
   }
 }
 
-// Additional (need to sort) CSS
+// services-page CSS
+
+.services_page {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  flex-wrap: wrap;
+  border: 2px white solid;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+// About Us CSS
+
+.about_us_list {
+  display: flex;
+  flex-direction: column;
+}
+
+// General/Additional (need to sort) CSS
+main {
+  width: 100%;
+  max-width: 1250px;
+  margin: auto;
+  padding: 80px 30px;
+  min-height: 550px;
+}
 ul {
+  display: flex;
+  text-decoration: none;
   list-style: none;
+  gap: 15px;
+}
+li {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
 }
 
 header {
@@ -385,42 +427,6 @@ header > div {
   text-transform: uppercase;
 }
 
-ul {
-  display: flex;
-  text-decoration: none;
-  list-style: none;
-  gap: 15px;
-}
-li {
-  font-weight: 600;
-  font-size: 16px;
-}
-
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-}
-
-main {
-  width: 100%;
-  max-width: 1250px;
-  margin: auto;
-  padding: 80px 30px;
-  min-height: 550px;
-}
-
-.about_us_list {
-  display: flex;
-  flex-direction: column;
-}
-
-.services_page {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-}
 .card {
   position: relative;
 }
