@@ -27,7 +27,7 @@
       "service": "Education",
       "description": "Provides the necessary background for and provides hands-on practice using popular microcomputer office applications including word processing, spreadsheets, database and presentation management. The course also covers computer concepts including hardware, software, multimedia, privacy and security, and current computing trends",
       "image": "/../public/computers2.jpg",
-      "emails_registered": []
+      "emails_registered": ["jean.gonzales1414@gmail.com"]
     },
     {
       "id": "MicrosoftOffice",
