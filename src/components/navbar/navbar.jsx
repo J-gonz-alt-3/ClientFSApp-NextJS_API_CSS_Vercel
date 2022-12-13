@@ -15,7 +15,7 @@ export const Navbar = () => {
             src={"/../public/logo4.png"}
             width={80}
             height={80}
-            style={{ borderRadius: "15%" }}
+            style={{ borderRadius: "15%", border: "1px solid black" }}
           />
         </Link>
       </div>

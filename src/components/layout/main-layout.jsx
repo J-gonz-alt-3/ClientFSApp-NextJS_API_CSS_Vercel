@@ -9,15 +9,13 @@ const MainLayout = ({ children }) => {
       <main>{children}</main>
       <Footer />
     </>
-    //Main Landing Page: (Missing Footer Edits)
+    //Main Landing Page: (Complete)
     // navbar.jsx
     // home-page.jsx
     // footer.jsx
 
     //Services: (Missing All)
-    //navbar.jsx
     //services-page.jsx
-    //footer.jsx
 
     //About Us: (Missing All)
     //about-us.js
