@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const HomePage = ({ data }) => (
-  <div>
+  <div className="home_wrapper">
     <div className="app__header app__wrapper section__padding">
       <div className="app__wrapper_info">
         <h1 className="app__header-h1">IT Global Professionals</h1>

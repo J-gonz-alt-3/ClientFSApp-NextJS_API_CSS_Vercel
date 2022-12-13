@@ -82,6 +82,7 @@
   align-content: center;
   width: 100%;
   padding: 1rem 2rem;
+  border: 2px white solid;
 }
 .app__navbar-logo {
   display: flex;
@@ -203,6 +204,9 @@
 }
 
 // Header/Top Main Page CSS
+.home_wrapper {
+  border: 2px white solid;
+}
 .app__header-h1 {
   font-family: var(--font-base);
   color: blueviolet;
@@ -248,6 +252,7 @@
   flex-wrap: wrap;
   flex-direction: column;
   gap: 50px;
+  border: 2px white solid;
 }
 
 .card {
