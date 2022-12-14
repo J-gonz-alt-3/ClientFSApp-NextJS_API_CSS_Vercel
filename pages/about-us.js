@@ -3,8 +3,14 @@ import Image from "next/image";
 const AboutUsPage = () => {
   return (
     <div app__aboutus app__bg flex__center section__padding>
-      <div className="app__aboutus-overlay flex__center">
-        {/* <Image src={""} alt={""} /> */}
+      <div className="flex__center">
+        <Image
+          src={"/aboutus.jpg"}
+          alt={"aboutus"}
+          width={300}
+          height={400}
+          style={{ paddingBottom: "3rem", borderRadius: "8px" }}
+        />
       </div>
 
       <div className="app__aboutus-content flex__center">
@@ -41,7 +47,7 @@ const AboutUsPage = () => {
         <p className="p__opensans">
           We help organizations virtually manage the most complex IT
           cybersecurity training needs. We thrive because of our market
-          knowledge and the great team behind our product.IT Global Pro is a
+          knowledge and the great team behind our product. IT Global Pro is a
           leader in tech education. Using our next-generation data architecture,
           we offer training programs tailored to meet the needs of
           organizations, we offer the comprehensive capabilities and deep
