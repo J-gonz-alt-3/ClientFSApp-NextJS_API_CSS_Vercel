@@ -57,7 +57,7 @@ const AboutUsPage = () => {
               Our passion for creating meaningful change for clients is what
               sets us apart. The IT Global Pro team believes in the potential of
               our great idea, and it truly shows in all of our work! We work
-              tirelessly to bring you a better tomorrow, and we’re proud of
+              tirelessly to bring you a better tomorrow, and we are proud of
               every single member of staff. To learn more about the incredible
               IT Global Pro team, please have a look below.
             </p>
