@@ -52,11 +52,11 @@ const AboutUsPage = () => {
       <div>
         <ul className="about_us_list app__aboutus-content_history">
           <li>
-            <h3 className="headtext__cormorant">Our Team</h3>
+            <h2 className="headtext__cormorant">Our Team</h2>
             <p className="p__opensans">
               Our passion for creating meaningful change for clients is what
               sets us apart. The IT Global Pro team believes in the potential of
-              our great idea, and it truly shows in all of our work. We work
+              our great idea, and it truly shows in all of our work! We work
               tirelessly to bring you a better tomorrow, and we’re proud of
               every single member of staff. To learn more about the incredible
               IT Global Pro team, please have a look below.
