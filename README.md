@@ -27,7 +27,7 @@ That checklist is what I am currently planning on working on, but I still have W
 
 I plan on implementing a MongoDB database to store User profile for my (Login/Registration) page.
 
-As of writing this, only the Homepage, Services, and About Us pages are fully Responsive.
+As of writing this, only the Homepage, Services, and About Us pages are fully Responsive. (Update: Are optimized for tablets and larger, actually NOT yet optimized for mobile phones).
 
 All other pages are still incomplete with regards to that and general CSS.
 
