@@ -2,57 +2,37 @@
 
 So this is a client project, that I was given permission to make public on my GitHub!
 
-It's a Full Stack NextJS Web Application, that will go into live production for the client as soon as I finish it!
+This is a Full Stack, NextJS Web Application!
 
-This project WILL take some time but thus far I've been able outline a rough draft of the site (page) structure.
+This project WILL take some time, it is still NOT complete.
+
+Regardless, I've progressed enough to at least show where I currently am, but I want to stress that at the moment I'm only maybe 35% done with this project.
+
+Project Link: https://client-fs-app-next-js-api-css-vercel-i9-git-0c3d2c-j-gonz-alt-3.vercel.app
 
 # Tools Used
 
-- NextJS
+- NextJS (Framework for Production)
 - JavaScript
-- API Routing in NextJS
-- CSS
-- Vercel
+- API Routing in NextJS (API endpoint created by NextJS - grabs user data and stores in database - data.json)
+- SASS/CSS
+- MongoDB (DataBase)
+- Vercel (for deployment)
 
 # Thoughts so Far
 
-Haven't really run into any major issues thus far, lots of resource searching online aside from the app structuring (pictures/text for the webpages).
+If you are curious as to where I currently am in my project, look at the main-layout.jsx file and I have a running checklist (in comment form).
 
-Will continue to work on this on a daily basis until deadline date!
+That checklist is what I am currently planning on working on, but I still have WAYY more to do beyond that checklist.
 
-***********************************************************************************
+I plan on implementing a MongoDB database to store User profile for my (Login/Registration) page.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+As of writing this, only the Homepage, Services, and About Us pages are fully Responsive.
 
-## Getting Started
+All other pages are still incomplete with regards to that and general CSS.
 
-First, run the development server:
+The overall styling of the entire website may change completely as well, but the strcuturing of my elements is fairly decided on at this point so I don't suspect that to change.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+But like I said before, still a lot more work to do for this, but I still have time!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Will continue to work on this on a daily basis until agreed upon deadline date!
