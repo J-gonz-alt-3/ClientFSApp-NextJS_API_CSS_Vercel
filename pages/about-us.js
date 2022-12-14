@@ -4,7 +4,7 @@ const AboutUsPage = () => {
   return (
     <div app__aboutus app__bg flex__center section__padding>
       <div className="app__aboutus-overlay flex__center">
-        <Image src={""} alt={""} />
+        {/* <Image src={""} alt={""} /> */}
       </div>
 
       <div className="app__aboutus-content flex__center">
