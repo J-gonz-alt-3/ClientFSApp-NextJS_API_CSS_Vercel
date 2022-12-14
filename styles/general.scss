@@ -381,6 +381,66 @@
   flex-direction: column;
 }
 
+// .app__aboutus-overlay {
+//   position: absolute;
+//   inset: 0;
+// }
+
+.flex__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__aboutus-content {
+  width: 100%;
+  z-index: 2;
+}
+.app__aboutus-content_about {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+}
+.headtext__cormorant {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  line-height: 2px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+
+.app__aboutus-content_history {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+}
+
+.app__aboutus-content_about p,
+.app__aboutus-content_history p {
+  margin: 2rem 0;
+  color: whitesmoke;
+}
+
+@media screen and (max-width: 2000px) {
+  .app__aboutus-content_about p,
+  .app__aboutus-content_history p {
+    margin: 4rem 0;
+  }
+}
+@media screen and (max-width: 900px) {
+  .app__aboutus-content {
+    flex-direction: column;
+  }
+}
+
+// Contact Us page CSS
+
 // General/Additional (need to sort) CSS
 main {
   width: 100%;

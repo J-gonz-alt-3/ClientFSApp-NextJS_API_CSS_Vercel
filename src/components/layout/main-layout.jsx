@@ -17,13 +17,16 @@ const MainLayout = ({ children }) => {
     //Services: (Complete)
     //services-page.jsx
 
-    //About Us: (Missing All)
+    //About Us: (Complete)
     //about-us.js
 
-    //Contact Us: (Missing All)
+    //Contact Us: (Missing All Styling)
     //contact-us.js
 
-    //Auto Generated Pages: (Missing All)
+    //Login Page: (Missing All Styling)
+    //login.js
+
+    //Auto Generated Pages: (Missing All Styling)
   );
 };
 
