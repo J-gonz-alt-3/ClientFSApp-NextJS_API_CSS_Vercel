@@ -20,7 +20,7 @@ const AboutUsPage = () => {
             IT Global Pro is a leading provider of cutting-edge technologies and
             services, offering scalable solutions for companies of all sizes.
             Founded by a group of talented professionals who started by
-            observing a need for training employees is lacking in today's
+            observing a need for training employees is lacking in todays
             competitive market, Today we offer smart, innovative services to
             dozens of clients worldwide. We built our solutions by closely
             listening to our potential clientele and understanding their
