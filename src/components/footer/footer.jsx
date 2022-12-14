@@ -8,7 +8,7 @@ export const Footer = () => {
       <div className="app__footer-links">
         <div className="app__footer-links_logo">
           <Image
-            src={"/../public/logo4.png"}
+            src={"/logo4.png"}
             width={80}
             height={80}
             style={{
