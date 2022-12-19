@@ -1,11 +1,13 @@
 import React from "react";
 import { Navbar } from "../navbar/navbar";
 import { Footer } from "../footer/footer";
+import { Showcase } from "../showcase/showcase";
 
 const MainLayout = ({ children }) => {
   return (
     <>
       <Navbar />
+      <Showcase />
       <main>{children}</main>
       <Footer />
     </>

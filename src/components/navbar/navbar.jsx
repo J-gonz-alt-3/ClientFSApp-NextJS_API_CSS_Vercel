@@ -1,24 +1,14 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
-// import { GiHamburgerMenu } from "react-icons/gi";
-// import { MdPowerSettingsNew } from "react-icons/md";
 
 export const Navbar = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
   return (
-    <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+    <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
       <div className="container">
         <Link href="/" passHref className="navbar-brand">
           {" "}
           IT Global Pro
-          {/* <Image
-            alt="logo"
-            src={"/logo4.png"}
-            width={80}
-            height={80}
-            style={{ borderRadius: "15%", border: "1px solid black" }}
-          /> */}
         </Link>
         <button
           className="navbar-toggler"
@@ -56,50 +46,5 @@ export const Navbar = () => {
         </div>
       </div>
     </nav>
-
-    /* <div app__navbar-login>
-        <Link href="/login" className="p__opensans">
-          Log In/Registration
-        </Link>
-      </div>
-      <div>
-        <GiHamburgerMenu
-          color="white"
-          fontSize={27}
-          onClick={() => setToggleMenu(true)}
-        />
-        {toggleMenu && (
-          <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
-            <MdPowerSettingsNew
-              fontSize={27}
-              className="overlay__close"
-              onClick={() => setToggleMenu(false)}
-            />
-            <ul className="app__navbar-smallscreen_links">
-              <li>
-                <Link href="/" onClick={() => setToggleMenu(false)}>
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link href="/services" onClick={() => setToggleMenu(false)}>
-                  Services
-                </Link>
-              </li>
-              <li>
-                <Link href="/about-us" onClick={() => setToggleMenu(false)}>
-                  About Us
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact-us" onClick={() => setToggleMenu(false)}>
-                  Contact Us
-                </Link>
-              </li>
-            </ul>
-          </div>
-        )}
-      </div>
-    </nav> */
   );
 };

@@ -1,5 +1,5 @@
 // import "../styles/globals.css";
-// import "../styles/general.scss";
+import "../styles/general.scss";
 import MainLayout from "../src/components/layout/main-layout";
 import "bootstrap/dist/css/bootstrap.min.css";
 

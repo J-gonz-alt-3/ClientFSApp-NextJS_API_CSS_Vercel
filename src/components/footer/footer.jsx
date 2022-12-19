@@ -4,32 +4,14 @@ import Image from "next/image";
 
 export const Footer = () => {
   return (
-    <div className="app__footer section__padding">
-      <div className="app__footer-links">
-        <div className="app__footer-links_logo">
-          <Image
-            src={"/logo4.png"}
-            width={80}
-            height={80}
-            style={{
-              borderRadius: "15%",
-              display: "flex",
-              justifyContent: "center",
-            }}
-            alt={""}
-          />
-        </div>
-        <div className="app__footer-links_icons">
-          <FiFacebook />
-          <FiTwitter />
-          <FiInstagram />
-        </div>
+    <footer className="p-5 bg-dark text-white text-center position-relative">
+      <div className="container">
+        <p className="lead">Copyright &copy; 2022 IT Global Professionals</p>
+
+        <a href="" class="position-absolute bottom-0 end-0 p-5">
+          <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
       </div>
-      <div className="footer__copyright">
-        <p className="p__opensans">
-          © 2022 IT Global Professionals. All Rights Reserved.
-        </p>
-      </div>
-    </div>
+    </footer>
   );
 };
