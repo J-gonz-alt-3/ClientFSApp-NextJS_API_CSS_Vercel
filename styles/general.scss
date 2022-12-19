@@ -80,19 +80,32 @@
 
 // Navbar CSS
 .app__navbar {
+  position: relative;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: space-between;
+  //padding: 5rem 0;
+
   align-content: center;
   width: 100%;
   padding: 1rem 2rem;
   border: 2px whitesmoke solid;
   background: -webkit-linear-gradient(45deg, #f3ec78, #af4261);
 }
+
 .app__navbar-logo {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  // width: 80%;
 }
+// .container {
+//   width: 80%;
+//   margin: auto;
+//   overflow: hidedn;
+// }
+
 .app__navbar-logo Image {
   width: 150px;
 }

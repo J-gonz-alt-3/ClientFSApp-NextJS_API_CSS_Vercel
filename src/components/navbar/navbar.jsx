@@ -1,48 +1,63 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { GiHamburgerMenu } from "react-icons/gi";
-import { MdPowerSettingsNew } from "react-icons/md";
+// import { GiHamburgerMenu } from "react-icons/gi";
+// import { MdPowerSettingsNew } from "react-icons/md";
 
 export const Navbar = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
   return (
-    <nav className="app__navbar">
-      <div className="app__navbar-logo">
-        <Link href="/" passHref>
-          <Image
+    <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+      <div className="container">
+        <Link href="/" passHref className="navbar-brand">
+          {" "}
+          IT Global Pro
+          {/* <Image
             alt="logo"
             src={"/logo4.png"}
             width={80}
             height={80}
             style={{ borderRadius: "15%", border: "1px solid black" }}
-          />
+          /> */}
         </Link>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul className="navbar-nav ms-auto">
+            <li className="nav-item">
+              {" "}
+              <Link href="/" className="nav-link" passHref>
+                Home
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/services" className="nav-link" passHref>
+                Services
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/about-us" className="nav-link" passHref>
+                About Us
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/contact-us" className="nav-link" passHref>
+                Contact Us
+              </Link>
+            </li>
+          </ul>
+        </div>
       </div>
-      <ul className="app__navbar-links">
-        <li className="p__opensans">
-          {" "}
-          <Link href="/" passHref>
-            Home
-          </Link>
-        </li>
-        <li className="p__opensans">
-          <Link href="/services" passHref>
-            Services
-          </Link>
-        </li>
-        <li className="p__opensans">
-          <Link href="/about-us" passHref>
-            About Us
-          </Link>
-        </li>
-        <li className="p__opensans">
-          <Link href="/contact-us" passHref>
-            Contact Us
-          </Link>
-        </li>
-      </ul>
-      <div app__navbar-login>
+    </nav>
+
+    /* <div app__navbar-login>
         <Link href="/login" className="p__opensans">
           Log In/Registration
         </Link>
@@ -85,6 +100,6 @@ export const Navbar = () => {
           </div>
         )}
       </div>
-    </nav>
+    </nav> */
   );
 };
