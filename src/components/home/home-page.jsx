@@ -3,11 +3,11 @@ import Image from "next/image";
 
 export const HomePage = ({ data }) => (
   // Cards
-  <section className="p-5">
+  <section className="p-5 bg-dark">
     <div className="container">
       <div className="row text-center g-4">
         <div className="col-md">
-          <div className="card bg-dark text-light">
+          <div className="card bg-secondary text-light">
             <div className="card-body text-center">
               {data.map((ev) => (
                 <Link
@@ -29,8 +29,8 @@ export const HomePage = ({ data }) => (
                     className="img-fluid"
                   />
 
-                  <h2 className="card-title mb-3 text-primary">{ev.title}</h2>
-                  <p className="card-text text-info">{ev.description}</p>
+                  <h2 className="card-title mb-3 text-warning">{ev.title}</h2>
+                  <p className="card-text text-white">{ev.description}</p>
                 </Link>
               ))}
             </div>

@@ -3,6 +3,7 @@ import { Navbar } from "../navbar/navbar";
 import { Footer } from "../footer/footer";
 import { Showcase } from "../showcase/showcase";
 import { Newsletter } from "../newsletter/newsletter";
+import { Instructors } from "../instructors/instructors";
 
 const MainLayout = ({ children }) => {
   return (
@@ -11,6 +12,7 @@ const MainLayout = ({ children }) => {
       <Showcase />
       <Newsletter />
       <main>{children}</main>
+      <Instructors />
       <Footer />
     </>
     //Main Landing Page: (Complete)
