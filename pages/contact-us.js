@@ -6,7 +6,7 @@ const ContactUsPage = () => {
       <div className="container">
         <div className="row g-4">
           <div className="col-md">
-            <h2 className="text-cener mb-4">Contact Us</h2>
+            <h2 className="text-center mb-4">Contact Us</h2>
             <ul className="list-group list-group-flush lead">
               <li className="list-group-item">
                 <span className="fw-bold">Main Location:</span> 50 Main St.
@@ -16,7 +16,19 @@ const ContactUsPage = () => {
                 <span class="fw-bold">Student Phone:</span> (333) 333-3333
               </li>
               <li class="list-group-item">
-                <span class="fw-bold">Enrollment Email:</span>
+                <span class="fw-bold">Enrollment Email: </span>
+                itglobalpro@itglobalpro.com
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Enrollment Email: </span>
+                itglobalpro@itglobalpro.com
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Enrollment Email: </span>
+                itglobalpro@itglobalpro.com
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Enrollment Email: </span>
                 itglobalpro@itglobalpro.com
               </li>
             </ul>
