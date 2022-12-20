@@ -26,6 +26,7 @@ export const HomePage = ({ data }) => (
                     height={300}
                     alt={ev.title}
                     src={ev.image}
+                    className="img-fluid"
                   />
 
                   <h2 className="card-title mb-3 text-primary">{ev.title}</h2>
