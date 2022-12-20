@@ -11,7 +11,6 @@ body::before {
 }
 
 // Navbar CSS
-
 .app__navbar-links {
   flex: 1;
   display: flex;
@@ -29,17 +28,6 @@ body::before {
 .app__navbar-links li:hover {
   color: green;
 }
-// .app__navbar-login {
-//   display: flex;
-//   justify-content: flex-end;
-//   align-items: center;
-// }
-
-// .app__navbar-login Link {
-//   margin: 0 1rem;
-//   text-decoration: none;
-//   transition: 0.5s ease;
-// }
 
 .app__navbar-login div {
   width: 1px;
@@ -87,7 +75,6 @@ body::before {
   color: whitesmoke;
   font-size: 2rem;
   text-align: center;
-  //font-family:
   background-color: -webkit-linear-gradient(45deg, #f3ec78, #af4261);
 }
 
