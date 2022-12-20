@@ -11,8 +11,8 @@ export const Showcase = () => {
               Become a <span class="text-warning">Web Developer</span>
             </h1>
             <p className="lead my-4">
-              We focsuing on teaching our students the fundamentals of the
-              latest and greatest technologies to prepare them for their first
+              We focus on teaching our students the fundamentals of the latest
+              and greatest technologies to prepare them for their first
               developer role.
             </p>
             <button
@@ -28,6 +28,7 @@ export const Showcase = () => {
             width={500}
             height={400}
             alt={"showcase"}
+            style={{ borderRadius: 10 }}
             className="img-fluid w-50 d-none d-sm-block"
           />
         </div>

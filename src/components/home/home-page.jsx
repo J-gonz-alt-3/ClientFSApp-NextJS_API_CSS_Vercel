@@ -1,33 +1,41 @@
 import Link from "next/link";
 import Image from "next/image";
-import { MdColorLens } from "react-icons/md";
 
 export const HomePage = ({ data }) => (
   // Cards
-  <section>
-    <div className="home_body app__header app__wrapper section__padding">
-      {data.map((ev) => (
-        <Link className="card" key={ev.id} href={`/services/${ev.id}`} passHref>
-          <div className="image app__wrapper_img">
-            <Image
-              style={{
-                borderRadius: "10px",
-                objectFit: "cover",
-                overflow: "hidden",
-              }}
-              width={400}
-              height={300}
-              alt={ev.title}
-              src={ev.image}
-            />
-          </div>
+  <section className="p-5">
+    <div className="container">
+      <div className="row text-center g-4">
+        <div className="col-md">
+          <div className="card bg-dark text-light">
+            <div className="card-body text-center">
+              {data.map((ev) => (
+                <Link
+                  className=""
+                  key={ev.id}
+                  href={`/services/${ev.id}`}
+                  passHref
+                >
+                  <Image
+                    style={{
+                      borderRadius: "10px",
+                      objectFit: "cover",
+                      overflow: "hidden",
+                    }}
+                    width={400}
+                    height={300}
+                    alt={ev.title}
+                    src={ev.image}
+                  />
 
-          <div className="content app__wrapper_info">
-            <h2>{ev.title}</h2>
-            <p>{ev.description}</p>
+                  <h2 className="card-title mb-3 text-primary">{ev.title}</h2>
+                  <p className="card-text text-info">{ev.description}</p>
+                </Link>
+              ))}
+            </div>
           </div>
-        </Link>
-      ))}
+        </div>
+      </div>
     </div>
   </section>
 );

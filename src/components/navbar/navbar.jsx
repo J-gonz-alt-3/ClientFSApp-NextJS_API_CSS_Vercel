@@ -8,7 +8,7 @@ export const Navbar = () => {
       <div className="container">
         <Link href="/" passHref className="navbar-brand">
           {" "}
-          IT Global Pro
+          IT Global Professionals
         </Link>
         <button
           className="navbar-toggler"
