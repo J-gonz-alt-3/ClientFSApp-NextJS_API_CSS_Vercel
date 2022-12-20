@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/link";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { MdOutlineRestaurantMenu } from "react-icons/md";
 
 export const Navbar = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
@@ -10,19 +12,7 @@ export const Navbar = () => {
           {" "}
           IT Global Professionals
         </Link>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#kicMyAss"
-          aria-expanded="false"
-          aria-controls="navbarNavDropdown"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="kickMyAss">
+        <div class="app__navbar-links">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item active">
               {" "}
@@ -47,6 +37,61 @@ export const Navbar = () => {
             </li>
           </ul>
         </div>
+      </div>
+
+      <div className="app__navbar-smallscreen">
+        <GiHamburgerMenu
+          color="lightblue"
+          fontSize={27}
+          onClick={() => setToggleMenu(true)}
+        />
+        {toggleMenu && (
+          <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
+            <MdOutlineRestaurantMenu
+              fontSize={27}
+              className="overlay__close"
+              onClick={() => setToggleMenu(false)}
+            />
+            <ul className="app__navbar-smallscreen_links">
+              <li>
+                <a
+                  href="/"
+                  style={{ color: "lightblue", textDecoration: "none" }}
+                  onClick={() => setToggleMenu(false)}
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/services"
+                  style={{ color: "lightblue", textDecoration: "none" }}
+                  onClick={() => setToggleMenu(false)}
+                >
+                  Services
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/about-us"
+                  style={{ color: "lightblue", textDecoration: "none" }}
+                  onClick={() => setToggleMenu(false)}
+                >
+                  About
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/contact-us"
+                  style={{ color: "lightblue", textDecoration: "none" }}
+                  onClick={() => setToggleMenu(false)}
+                >
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </div>
+        )}
       </div>
     </nav>
   );
