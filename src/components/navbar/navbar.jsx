@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { MdOutlineRestaurantMenu } from "react-icons/md";
+import { MdExitToApp } from "react-icons/md";
 
 export const Navbar = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
@@ -46,7 +46,7 @@ export const Navbar = () => {
           />
           {toggleMenu && (
             <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
-              <MdOutlineRestaurantMenu
+              <MdExitToApp
                 fontSize={27}
                 className="overlay__close"
                 onClick={() => setToggleMenu(false)}
