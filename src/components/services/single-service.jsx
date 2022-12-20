@@ -54,6 +54,7 @@ export const SingleService = ({ data }) => {
         width={800}
         height={500}
         alt={data.title}
+        className="img-fluid"
       />
 
       <p>{data.description}</p>
