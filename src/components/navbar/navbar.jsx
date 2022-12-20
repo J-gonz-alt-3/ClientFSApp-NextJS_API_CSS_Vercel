@@ -14,14 +14,17 @@ export const Navbar = () => {
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navmenu"
+          data-bs-target="#kicMyAss"
+          aria-expanded="false"
+          aria-controls="navbarNavDropdown"
+          aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navmenu">
+        <div class="collapse navbar-collapse" id="kickMyAss">
           <ul className="navbar-nav ms-auto">
-            <li className="nav-item">
+            <li className="nav-item active">
               {" "}
               <Link href="/" className="nav-link" passHref>
                 Home
@@ -37,7 +40,7 @@ export const Navbar = () => {
                 About Us
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item disabled">
               <Link href="/contact-us" className="nav-link" passHref>
                 Contact Us
               </Link>
