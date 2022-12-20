@@ -50,7 +50,7 @@ export const HomePage = ({ data }) => (
               placeholder="Enter Email"
             />
             <button className="btn btn-dark btn-lg" type="button">
-              Register!
+              Subscribe
             </button>
           </div>
         </div>

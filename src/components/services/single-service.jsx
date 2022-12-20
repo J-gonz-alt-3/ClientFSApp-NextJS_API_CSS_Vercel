@@ -42,33 +42,45 @@ export const SingleService = ({ data }) => {
   };
 
   return (
-    <div className="service_single_page">
-      <h1>{data.title}</h1>
-      <Image
-        style={{
-          borderRadius: "10px",
-          objectFit: "cover",
-          overflow: "hidden",
-        }}
-        src={data.image}
-        width={800}
-        height={500}
-        alt={data.title}
-        className="img-fluid"
-      />
-
-      <p>{data.description}</p>
-      <form onSubmit={onSubmit} className="email_registration">
-        <label>Reserve a Seat</label>
-        <input
-          ref={inputEmail}
-          type="email"
-          id="email"
-          placeholder="Type email here"
+    <div className="bg-dark text-light p-4 p-lg-0 text-center text-sm-start">
+      <div className="container">
+        <h1 className="text-warning">{data.title}</h1>
+        <Image
+          style={{
+            borderRadius: "10px",
+            objectFit: "cover",
+            overflow: "hidden",
+          }}
+          src={data.image}
+          width={600}
+          height={400}
+          alt={data.title}
+          className="img-fluid"
         />
-        <button>Submit</button>
-      </form>
-      <p>{message}</p>
+
+        <p className="pt-3">{data.description}</p>
+        <form onSubmit={onSubmit} className="email_registration">
+          <label className="text-warning pb-2" style={{ display: "block" }}>
+            Reserve a Seat
+          </label>
+
+          <div class="input-group mb-3">
+            <input
+              ref={inputEmail}
+              type="email"
+              id="email"
+              placeholder="Type email here"
+              className="form-control"
+            />
+            <div class="input-group-append bg-dark">
+              <button type="button" class="btn btn-primary btn-md active">
+                Submit
+              </button>
+            </div>
+          </div>
+        </form>
+        <p>{message}</p>
+      </div>
     </div>
   );
 };
