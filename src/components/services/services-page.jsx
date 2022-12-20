@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const AllServices = ({ data }) => {
   return (
-    <div className="p-5 bg-secondary">
+    <div className="p-5 bg-dark">
       <div className="container">
         <div className="row text-center g-4">
           <div className="col-md">
