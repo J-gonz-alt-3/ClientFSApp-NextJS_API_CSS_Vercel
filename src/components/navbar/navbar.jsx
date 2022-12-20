@@ -54,40 +54,40 @@ export const Navbar = () => {
             />
             <ul className="app__navbar-smallscreen_links">
               <li>
-                <a
+                <Link
                   href="/"
                   style={{ color: "lightblue", textDecoration: "none" }}
                   onClick={() => setToggleMenu(false)}
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/services"
                   style={{ color: "lightblue", textDecoration: "none" }}
                   onClick={() => setToggleMenu(false)}
                 >
                   Services
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/about-us"
                   style={{ color: "lightblue", textDecoration: "none" }}
                   onClick={() => setToggleMenu(false)}
                 >
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/contact-us"
                   style={{ color: "lightblue", textDecoration: "none" }}
                   onClick={() => setToggleMenu(false)}
                 >
                   Contact Us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
