@@ -37,61 +37,61 @@ export const Navbar = () => {
             </li>
           </ul>
         </div>
-      </div>
 
-      <div className="app__navbar-smallscreen">
-        <GiHamburgerMenu
-          color="lightblue"
-          fontSize={27}
-          onClick={() => setToggleMenu(true)}
-        />
-        {toggleMenu && (
-          <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
-            <MdOutlineRestaurantMenu
-              fontSize={27}
-              className="overlay__close"
-              onClick={() => setToggleMenu(false)}
-            />
-            <ul className="app__navbar-smallscreen_links">
-              <li>
-                <Link
-                  href="/"
-                  style={{ color: "lightblue", textDecoration: "none" }}
-                  onClick={() => setToggleMenu(false)}
-                >
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/services"
-                  style={{ color: "lightblue", textDecoration: "none" }}
-                  onClick={() => setToggleMenu(false)}
-                >
-                  Services
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/about-us"
-                  style={{ color: "lightblue", textDecoration: "none" }}
-                  onClick={() => setToggleMenu(false)}
-                >
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/contact-us"
-                  style={{ color: "lightblue", textDecoration: "none" }}
-                  onClick={() => setToggleMenu(false)}
-                >
-                  Contact Us
-                </Link>
-              </li>
-            </ul>
-          </div>
-        )}
+        <div className="app__navbar-smallscreen">
+          <GiHamburgerMenu
+            color="lightblue"
+            fontSize={27}
+            onClick={() => setToggleMenu(true)}
+          />
+          {toggleMenu && (
+            <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
+              <MdOutlineRestaurantMenu
+                fontSize={27}
+                className="overlay__close"
+                onClick={() => setToggleMenu(false)}
+              />
+              <ul className="app__navbar-smallscreen_links">
+                <li>
+                  <Link
+                    href="/"
+                    style={{ color: "lightblue", textDecoration: "none" }}
+                    onClick={() => setToggleMenu(false)}
+                  >
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/services"
+                    style={{ color: "lightblue", textDecoration: "none" }}
+                    onClick={() => setToggleMenu(false)}
+                  >
+                    Services
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/about-us"
+                    style={{ color: "lightblue", textDecoration: "none" }}
+                    onClick={() => setToggleMenu(false)}
+                  >
+                    About
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/contact-us"
+                    style={{ color: "lightblue", textDecoration: "none" }}
+                    onClick={() => setToggleMenu(false)}
+                  >
+                    Contact Us
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          )}
+        </div>
       </div>
     </nav>
   );

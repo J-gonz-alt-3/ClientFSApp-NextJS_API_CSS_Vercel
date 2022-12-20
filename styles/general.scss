@@ -48,7 +48,8 @@ body::before {
 }
 
 .app__navbar-smallscreen {
-  display: none;
+  display: flex;
+  float: right;
 }
 .app__navbar-smallscreen_overlay {
   position: fixed;
