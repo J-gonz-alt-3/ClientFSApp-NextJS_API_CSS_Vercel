@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const AboutUsPage = () => {
   return (
-    <section className="p-3 bg-secondary" id="learn">
+    <section className="p-3 bg-dark" id="learn">
       <div className="container">
         <div className="row align-items-center justify-content-between">
           <div className="col-md">
