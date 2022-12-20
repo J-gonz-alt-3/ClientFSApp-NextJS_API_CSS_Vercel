@@ -85,8 +85,12 @@ export const HomePage = ({ data }) => (
                       className="img-fluid"
                     />
 
-                    <h2 className="card-title mb-3 text-warning">{ev.title}</h2>
-                    <p className="card-text text-white">{ev.description}</p>
+                    <h2 className="card-title mb-3 text-warning pt-3">
+                      {ev.title}
+                    </h2>
+                    <p className="card-text text-white pb-4">
+                      {ev.description}
+                    </p>
                   </Link>
                 ))}
               </div>

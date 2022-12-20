@@ -2,33 +2,34 @@ import Image from "next/image";
 
 const ContactUsPage = () => {
   return (
-    <section className="p-5">
+    <section className="p-5 bg-secondary">
       <div className="container">
         <div className="row g-4">
           <div className="col-md">
-            <h2 className="text-center mb-4">Contact Us</h2>
+            <h2 className="text-center mb-4 text-warning">Contact Us</h2>
             <ul className="list-group list-group-flush lead">
-              <li className="list-group-item">
-                <span className="fw-bold">Main Location:</span> 50 Main St.
-                Boston, MA
+              <li className="list-group-item bg-secondary text-white">
+                <span className="fw-bold text-info">Main Location:</span> 50
+                Main St. Boston, MA
               </li>
-              <li class="list-group-item">
-                <span class="fw-bold">Student Phone:</span> (333) 333-3333
+              <li class="list-group-item bg-secondary text-white">
+                <span class="fw-bold text-info">Student Phone:</span> (333)
+                333-3333
               </li>
-              <li class="list-group-item">
-                <span class="fw-bold">Enrollment Email: </span>
+              <li class="list-group-item bg-secondary text-white">
+                <span class="fw-bold text-info">Enrollment Email: </span>
                 itglobalpro@itglobalpro.com
               </li>
-              <li class="list-group-item">
-                <span class="fw-bold">Enrollment Email: </span>
+              <li class="list-group-item bg-secondary text-white">
+                <span class="fw-bold text-info">Enrollment Email: </span>
                 itglobalpro@itglobalpro.com
               </li>
-              <li class="list-group-item">
-                <span class="fw-bold">Enrollment Email: </span>
+              <li class="list-group-item bg-secondary text-white">
+                <span class="fw-bold text-info">Enrollment Email: </span>
                 itglobalpro@itglobalpro.com
               </li>
-              <li class="list-group-item">
-                <span class="fw-bold">Enrollment Email: </span>
+              <li class="list-group-item bg-secondary text-white">
+                <span class="fw-bold text-info">Enrollment Email: </span>
                 itglobalpro@itglobalpro.com
               </li>
             </ul>

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const AboutUsPage = () => {
   return (
-    <section className="p-3" id="learn">
+    <section className="p-3 bg-secondary" id="learn">
       <div className="container">
         <div className="row align-items-center justify-content-between">
           <div className="col-md">
@@ -17,8 +17,8 @@ const AboutUsPage = () => {
           </div>
 
           <div className="col-md p-3">
-            <h1>About Us</h1>
-            <p className="lead">
+            <h1 className="text-warning">About Us</h1>
+            <p className="lead text-white">
               IT Global Pro is a leading provider of cutting-edge technologies
               and services, offering scalable solutions for companies of all
               sizes. Founded by a group of talented professionals who started by
@@ -36,8 +36,8 @@ const AboutUsPage = () => {
           <div className="container">
             <div className="row align-items-center justify-content-between">
               <div className="col-md p-3">
-                <h2>Our Mission</h2>
-                <p className="lead">
+                <h2 className="text-warning">Our Mission</h2>
+                <p className="lead text-white">
                   At IT Global Pro, we empower organizations through education
                   fostering collaborative thinking to drive workplace
                   innovation. We believe that a company should act as a
@@ -52,8 +52,8 @@ const AboutUsPage = () => {
           <div className="container">
             <div className="row align-items-center justify-content-between">
               <div className="col-md p-3">
-                <h3>Our Vision</h3>
-                <p className="lead">
+                <h3 className="text-warning">Our Vision</h3>
+                <p className="lead text-white">
                   We help organizations virtually manage the most complex IT
                   cybersecurity training needs. We thrive because of our market
                   knowledge and the great team behind our product. IT Global Pro
@@ -70,8 +70,8 @@ const AboutUsPage = () => {
           <div className="container">
             <div className="row align-items-center justify-content-between">
               <div className="col-md p-3">
-                <h4>Our Team</h4>
-                <p className="lead">
+                <h4 className="text-warning">Our Team</h4>
+                <p className="lead text-white">
                   Our passion for creating meaningful change for clients is what
                   sets us apart. The IT Global Pro team believes in the
                   potential of our great idea, and it truly shows in all of our
