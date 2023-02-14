@@ -1,7 +1,5 @@
 # Project Outline
 
-So this is a client project, that I was given permission to make public on my GitHub!
-
 This will be a Full Stack NextJS Web Application!
 
 This project WILL take some time, it is still NOT complete.
@@ -23,7 +21,7 @@ Project Link: https://client-fs-app-next-js-api-css-vercel-i9-git-0c3d2c-j-gonz-
 
 As of writing this, all pages on this WebApplication have been coded to be fully Responsive across all devices.
 
-I would say about 50% of the client data is currently on the site, however that task is still in progress.
+I would say about 50% of the data is currently on the site, however that task is still in progress.
 
 As far as the color scheme of the site as a whole, that is still pending and open for change depending on my and the client's perspective as we inch closer to project completion. (Not too worried about this tbh).
 
@@ -31,4 +29,4 @@ As far as the color scheme of the site as a whole, that is still pending and ope
 
 The current task I am working on is implementing MongoDB into the project.
 
-Will continue to work on this on a daily basis until agreed upon deadline date!
+Will continue to work on this when I have down time!
